@@ -86,7 +86,7 @@ export const useLotteryStore = defineStore('lottery',{
       if (this.messageRewardCheck.length === 0) {
         this.messageRewardCheck.push('คุณไม่ถูกรางวัล')
       }
-      console.log(this.messageRewardCheck);
+      
     }
   }
 })
